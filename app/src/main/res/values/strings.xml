@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="hello_world">This a text resource!</string>
+    <string name="text_resource">This a text resource!</string>
+    <string name="action_settings">Settings</string>
+    <string name="seekbar_distance">seekbar_distance</string>
+</resources>
