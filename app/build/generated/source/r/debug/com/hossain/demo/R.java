@@ -1782,11 +1782,10 @@ containing a value of this type.
         public static final int abc_simple_dropdown_hint=0x7f040018;
         public static final int activity_main=0x7f040019;
         public static final int add_emp=0x7f04001a;
-        public static final int list=0x7f04001b;
-        public static final int select_dialog_item_material=0x7f04001c;
-        public static final int select_dialog_multichoice_material=0x7f04001d;
-        public static final int select_dialog_singlechoice_material=0x7f04001e;
-        public static final int support_simple_spinner_dropdown_item=0x7f04001f;
+        public static final int select_dialog_item_material=0x7f04001b;
+        public static final int select_dialog_multichoice_material=0x7f04001c;
+        public static final int select_dialog_singlechoice_material=0x7f04001d;
+        public static final int support_simple_spinner_dropdown_item=0x7f04001e;
     }
     public static final class menu {
         public static final int menu_main=0x7f0d0000;
@@ -1814,9 +1813,14 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f060010;
         public static final int action_settings=0x7f060011;
         public static final int app_name=0x7f060012;
-        public static final int hello_world=0x7f060013;
-        public static final int seekbar_distance=0x7f060014;
-        public static final int text_resource=0x7f060015;
+        public static final int destination=0x7f060013;
+        public static final int distance=0x7f060014;
+        public static final int hello_world=0x7f060015;
+        public static final int hint_origin_city=0x7f060016;
+        public static final int hint_origin_date=0x7f060017;
+        public static final int origin=0x7f060018;
+        public static final int seekbar_distance=0x7f060019;
+        public static final int text_resource=0x7f06001a;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08006b;
