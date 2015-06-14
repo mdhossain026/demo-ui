@@ -40,7 +40,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView"
-                    android:src="@drawable/ic_action_place"
+                    android:src="@drawable/location_place"
                     android:layout_marginRight="20dp"
                     android:layout_gravity="center" />
 
@@ -48,10 +48,10 @@
                     android:id="@+id/edtOrginCity"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Origin City"
+                    android:hint="@string/hint_origin_city"
                     android:layout_marginBottom="20dp"
                     android:layout_toRightOf="@+id/imageView"
-                    android:drawableRight="@drawable/ic_send"
+                    android:drawableRight="@drawable/send"
                     >
                 </EditText>
 
@@ -66,14 +66,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/calander"
-                    android:src="@drawable/ic_action_calendar"
+                    android:src="@drawable/calendar"
                     android:layout_marginRight="20dp"/>
 
                 <EditText
                     android:id="@+id/edtOrginDate"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Origin Date"
+                    android:hint="@string/hint_origin_date"
                     android:layout_toRightOf="@+id/calander"
                     android:layout_marginBottom="20dp"
                     >
@@ -89,7 +89,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/destination"
-                    android:src="@drawable/ic_destination"
+                    android:src="@drawable/destination"
                     android:layout_marginRight="20dp"
                     />
                 <SeekBar
@@ -135,14 +135,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/destinationCity"
-                    android:src="@drawable/ic_action_place"
+                    android:src="@drawable/location_place"
                     android:layout_marginRight="20dp"
                     />
                 <EditText
                     android:id="@+id/edtDestinationCity"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Destination City"
+                    android:hint="@string/destination_city"
                     android:layout_marginBottom="20dp"
                     android:layout_toRightOf="@+id/destinationCity"
                     >
@@ -159,7 +159,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/distance"
-                    android:src="@drawable/ic_destination"
+                    android:src="@drawable/destination"
                     android:layout_marginRight="20dp"
                     />
                 <SeekBar

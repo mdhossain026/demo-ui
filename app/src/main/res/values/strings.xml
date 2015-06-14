@@ -7,6 +7,7 @@
     <string name="destination">DESTINATION(OPTIONAL)</string>
     <string name="hint_origin_city">Origin City</string>
     <string name="hint_origin_date">Origin Date</string>
+    <string name="destination_city">Destination City</string>
     <string name="distance">Distance</string>
     <string name="seekbar_distance">seekbar_distance</string>
 </resources>
