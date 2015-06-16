@@ -5,7 +5,7 @@
     android:paddingBottom="5dp"
     android:paddingLeft="5dp"
     android:paddingRight="5dp"
-    android:paddingTop="5dp" >
+    android:paddingTop="5dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -151,6 +151,8 @@
 
             </RelativeLayout>
 
+
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -160,9 +162,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/distance"
-                    android:src="@drawable/destination"
-                    android:layout_marginRight="20dp"
-                    />
+                    android:src="@drawable/destination" />
+
+
                 <SeekBar
                     android:id="@+id/seekBar2"
                     android:layout_width="fill_parent"
@@ -170,8 +172,9 @@
                     android:max="100"
                     android:progress="60"
                     android:indeterminate="false"
+                    android:layout_toRightOf="@+id/distance"
 
-                    android:layout_toRightOf="@+id/distance"/>
+                    />
             </RelativeLayout>
 
 
