@@ -25,7 +25,9 @@ public class MainActivity extends ActionBarActivity {
 
 
     private void initialize() {
+
         edtOrigin = (EditText) findViewById(R.id.edtOrginCity);
+
     }
 
 
@@ -58,7 +60,7 @@ public class MainActivity extends ActionBarActivity {
     private void actionbar() {
         ActionBar actionbar = getSupportActionBar();
         actionbar.setDisplayHomeAsUpEnabled(false);actionbar.setDisplayShowHomeEnabled(true);
-        actionbar.setDisplayShowTitleEnabled(true);
+        actionbar.setDisplayShowTitleEnabled(false);
         actionbar.setIcon(R.drawable.ic_drawer);
         actionbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#123148")));
     }
